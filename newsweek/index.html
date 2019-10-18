@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon/favicon-32x32.png">
+
+    <title>Newsweek</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <nav class="topnav navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+
+        <div class="navbar-header hidden-xs">
+          <a href="#" class="pull-left">
+            <img class="visible-sm visible-lg" src="images/logo/logo_lg.svg" alt="">
+            <img class="visible-md" src="images/logo/logo-sm.svg" alt="">
+          </a>
+        </div>
+
+          <ul class="nav navbar-nav navbar-left nav-items visible-md visible-lg">
+            <li><a href="#">U.S.</a></li>
+            <li><a href="#">WORLD</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">TECH & SCIENCE</a></li>
+            <li><a href="#" class="glyphicon glyphicon-search"></a></li>
+          </ul>
+
+          <!-- Smaller Screen Nav Bar -->
+        <div id="navbar" class="navbar-collapse collapse">
+        <a href="#" class="pull-left">
+          <img class="visible-xs" src="images/logo/logo-sm.svg" alt="">
+        </a>
+          <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="search-box" class="dropdown-toggle glyphicon glyphicon-search" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+              <ul class="dropdown-menu dropdown-menu-lg add-padding">
+                <li>
+                  <div class="heading-title">Search Newsweek</div>
+                </li>
+                <li class="divider"></li>
+                <li id="search">
+                  <form class="search-form">
+                    <input type="text" name="mail" class="form-text" placeholder="Search">
+                  </form>
+                </li>
+              </ul>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style-sm-hamburger">
+              <a href="#" id="hamburger" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+              <ul class="dropdown-menu dropdown-menu-lg add-padding">
+                <li>
+                  <div class="heading-title">Topics</div>
+                </li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li class="divider"></li>
+                <li><h3>U.S.</h3></li>
+                <li id="background-black">
+                  <div>
+                    <table>
+                      <tr>
+                        <td>
+                          <a href="#" id="circular-image" class="dropdown-toggle" data-toggle="dropdown">
+                            <div class="banner-subscribe-to">
+                              <div class="wrapper">
+                                <p><img class="img-circle" src="images/navbar/nav-bar-img.jpg">
+                                  <span>Subscribe</span>
+                                </p>
+                              </div>
+                            </div>
+                          </a>
+                        </td>
+                        <td>
+                          <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-map-marker" data-toggle="dropdown"></a>
+                        </td>
+                        <td><a href="#">Sign In</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- lg Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right visible-lg visible-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a href="#" id="circular-image" class="dropdown-toggle" data-toggle="dropdown">
+                <div class="banner-subscribe-to">
+                  <div class="wrapper">
+                    <p><img class="img-circle" src="images/navbar/nav-bar-img.jpg">
+                      <span>Subscribe <br> To Newsweek</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-lg add-padding">
+                <li id="dropdown-img"><img class="dropdown-image" src="images/navbar/nav-bar-dropdown-img.jpg"></li>
+                <li>
+                  <div class="text">
+                    <div class="category">$14.99</div>
+                    <h3>Print &amp; Digital</h3>
+                    <p>3 Month Trial—Save 85% off cover</p>
+                  </div>
+                  <button class="try" type="button" class="btn btn-danger">Try</button>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <div class="text">
+                    <div class="category">$14.99</div>
+                    <h3>Print &amp; Digital</h3>
+                    <p>3 Month Trial—Save 85% off cover</p>
+                  </div>
+                  <button class="try" type="button" class="btn btn-danger">Try</button>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <button id="subscription-option" type="button" class="btn">See All Subscription Options</button>
+                </li>
+                <li class="divider" id="divider-margin-0"></li>
+                <li id="subscribe-form-li">
+                  <form class="subscribe-form">
+                    <h4>Subscribe To The Newsletter</h4>
+                    <input type="text" name="mail" class="form-text" placeholder="Enter Your Email">
+                    <input name="" type="submit" class="form-submit" value="Sign up">
+                  </form>
+                </li>
+              </ul>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-map-marker" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+              <ul class="dropdown-menu dropdown-menu-lg">
+                <li>
+                  <div class="heading-title">Change Your Edition</div>
+                </li>
+                <li class="divider"></li>
+                <li id="countries">
+                  <table>
+                    <tr>
+                      <td>Peter</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                    <tr>
+                      <td>Lois</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                  </table>
+                  <img class="dropdown-image" src="images/navbar/nav-bar-map.png">
+                </li>
+              </ul>
+            </li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Sign In</a>
+              <div class="banner-sign-in">
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid main-content">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="row">
+            <!--Main-->
+            <div class="col-md-9 main wrapping">
+              <div class="content-background">
+                <img src="images/main/main_main.jpg" class="img-responsive">
+                <div class="info-wrapper">
+                <div class="glass"></div>
+                  <div class="info">
+                    <h2 class="category-main">
+                      <a href="#">U.S.</a>
+                    </h2>
+                    <h2 class="story text-center"><a href="#">Justice Dept. To Force Reforms</a></h2>
+                    <div class="summary text-center">"The residents of Ferguson have waited   nearly a year for their city to adopt an agreement."
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main-horizontal-divider"></div>
+
+              <div class="col-xs-12 col-sm-6 sub-box vertical-divider">
+                <img src="images/main/main1.png" class="img-responsive">
+                <div class="sub-info">
+                  <h2 class="category-main">
+                    <a href="#">U.S.</a>
+                  </h2>
+                  <h2 class="story text-center"><a href="#">Gravitational Waves Detected, Proving Einstein Right</a></h2>
+                  <div class="summary text-center">“This [was] truly a scientific moon shot, and we landed on the moon.”
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sub-box" id="sponsor-special">
+                <div id="blue-background">
+                  <img src="images/main/main2.jpg" class="img-responsive">
+                  <div class="sub-info">
+                    <h2 class="category-main blue">
+                      <a href="#">SPONSOR INSIGHT</a>
+                    </h2>
+                    <h2 class="story text-center"><a href="#">The Best Universities of Asia</a>
+                    </h2>
+                    <div class="summary text-center">"Universities from Asia and Europe are challenging the best schools in the USA. When it comes to choosing the right school then, the options have never been more diverse…"
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Side Menu-->
+            <div class="sidebar col-xs-12 col-md-3">
+              <div class="nav nav-sidebar">
+
+                <div class="grey-background">
+                  <div class="bullet-list">
+                    <div class="headlines-title">
+                      Latest headlines
+                    </div>
+                    <ul id="sidebar-list">
+                      <li class="bullet"><a class="bullet-a" href="#">Harriet Harman: The New Law on Gender Pay was Labour's</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">French Court Will Hear Facebook Nude Painting Case</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">Rolf Harris Faces Seven Indecent Assault Charges</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">Watch: Real Madrid's Pepe Gets Into Valentine's Spirit</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">Indonesia Blocking Gay Emojis From Facebook, Whatsapp</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">Mourinho and Woodward ‘Cannot Have Spoken’ - Van Gaal</a></li>
+                      <li class="bullet"><a class="bullet-a" href="#">Rwanda to Relocate Burundian Refugees</a></li>
+                      <li class="bullet">
+                        <div class="see-all">
+                          <button class="see-all-headlines" type="button" class="btn btn-default">See All Headlines</button>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
